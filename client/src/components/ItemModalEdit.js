@@ -60,10 +60,6 @@ class ItemModalEdit extends Component{
                     <ModalBody>
                         <Form onSubmit={this.onSubmit}>
                             <FormGroup>
-                                <Label for="item">Item ID</Label>
-                                <Input type="text" name="_id" id="item" placeholder="Item ID" readOnly defaultValue={this.state._id} />
-                            </FormGroup>
-                            <FormGroup>
                                 <Label for="item">Task Description</Label>
                                 <Input type="text" name="name" id="item" placeholder="Edit shopping item" 
                                        onChange={this.onChange} ref={(input) => this.getName = input} value={this.state.name}/>
