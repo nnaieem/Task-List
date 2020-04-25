@@ -45,7 +45,7 @@ class ItemModal extends Component{
                     color="dark"
                     style={{marginBottom: '2rem'}}
                     onClick={this.toggle}
-                >Add Task</Button>
+                >Create Todo</Button>
 
                 <Modal isOpen={this.state.modal} toggle={this.toggle}>
                     <ModalHeader toggle={this.toggle}>Add To Your Task List</ModalHeader>

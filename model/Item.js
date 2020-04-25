@@ -14,4 +14,4 @@ const ItemSchema = new Schema({
 });
 
 module.exports = Item = mongoose.model('item', ItemSchema);
-                                        //will create a model called item following the ItemSchema
+//will create a model called item following the ItemSchema
