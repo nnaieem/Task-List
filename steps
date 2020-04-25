@@ -1,0 +1,4 @@
+root folder - npm i
+cd into 'client' folder - npm i
+root folder - npm i -D nodemon
+to run locally - npm run dev
