@@ -11,6 +11,32 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// var databaseToUse = "";
+
+// if (process.env.NODE === "production") {
+//     app.use(express.statis('client/build'));
+//     databaseToUse = "mongodb://nnaieem:password1@ds155626.mlab.com:55626/heroku_tmsvvzzt";
+// }
+// else {
+//     databaseToUse = 'mongodb://localhost/reactBoilerplate';
+// }
+
+// app.use('/api/items', items);
+
+// const MONGODB_URI = process.env.MONGODB_URI || databaseToUse;
+
+// mongoose.Promise = global.Promise;
+
+// mongoose.connect(MONGODB_URI);
+
+// app.listen(PORT, function () {
+//   console.log(`App running on port ${PORT}`);
+// });
+
+
+
+
+
 // DB Config
 const db = require('./config/webconfig').mongoURI;
 
